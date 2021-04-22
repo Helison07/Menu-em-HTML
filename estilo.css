@@ -7,13 +7,18 @@ body {
     margin-top: -15px;
     background-color: rgb(29, 240, 240);
     padding: 25px;
-    font-size: 25pt;
+}
+
+.cabecalho h1 {
+    font-size: 40pt;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px white;
 }
 
 nav#menu ul {
     display: flex;
     color: black;
-    margin-top: -190px;
+    margin-top: -160px;
     text-transform: uppercase;
     list-style: none;
 }
