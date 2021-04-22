@@ -6,23 +6,30 @@ body {
 .cabecalho {
     margin-top: -15px;
     background-color: rgb(29, 240, 240);
-    padding: 15px;
+    padding: 25px;
+    font-size: 25pt;
 }
 
 nav#menu ul {
     display: flex;
     color: black;
-    margin-top: -110px;
+    margin-top: -190px;
     text-transform: uppercase;
+    list-style: none;
 }
 
 nav#menu li a{
     text-decoration: none;
     left: 800px;
     float: left;
-    padding: 10px;
+    padding: 1px;
     position: relative;
     color: black;
     margin: 20px;
     margin-top: 0px;
+    transition: .7s;
+}
+
+nav#menu a:hover {
+    background-color: aliceblue;
 }
