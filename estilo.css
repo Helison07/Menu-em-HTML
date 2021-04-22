@@ -5,12 +5,13 @@ body {
 
 .cabecalho {
     margin-top: -15px;
-    background-color: rgb(29, 240, 240);
+    background-color: rgb(0, 204, 255);
     padding: 25px;
 }
 
 .cabecalho h1 {
     font-size: 40pt;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     text-shadow: 2px 2px 2px white;
 }
@@ -18,12 +19,15 @@ body {
 nav#menu ul {
     display: flex;
     color: black;
-    margin-top: -160px;
+    margin-top: -170px;
     text-transform: uppercase;
     list-style: none;
 }
 
 nav#menu li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 13pt;
     text-decoration: none;
     left: 800px;
     float: left;
