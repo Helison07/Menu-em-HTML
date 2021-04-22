@@ -1,0 +1,28 @@
+body {
+    width: 0 auto;
+    background-color: lavender;
+}
+
+.cabecalho {
+    margin-top: -15px;
+    background-color: rgb(29, 240, 240);
+    padding: 15px;
+}
+
+nav#menu ul {
+    display: flex;
+    color: black;
+    margin-top: -110px;
+    text-transform: uppercase;
+}
+
+nav#menu li a{
+    text-decoration: none;
+    left: 800px;
+    float: left;
+    padding: 10px;
+    position: relative;
+    color: black;
+    margin: 20px;
+    margin-top: 0px;
+}
