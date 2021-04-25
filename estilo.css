@@ -10,16 +10,20 @@ body {
 }
 
 .cabecalho h1 {
-    font-size: 40pt;
+    font-size: 60pt;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     text-shadow: 2px 2px 2px white;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav#menu ul {
-    display: flex;
+    display: block;
     color: black;
-    margin-top: -170px;
+    margin-top: -190px;
     text-transform: uppercase;
     list-style: none;
 }
@@ -29,8 +33,8 @@ nav#menu li a{
     font-weight: bold;
     font-size: 13pt;
     text-decoration: none;
-    left: 800px;
-    float: left;
+    left: 0px;
+    float: right;
     padding: 1px;
     position: relative;
     color: black;
