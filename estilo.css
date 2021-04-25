@@ -23,7 +23,6 @@ body {
 nav#menu ul {
     display: block;
     color: black;
-    margin-top: -190px;
     text-transform: uppercase;
     list-style: none;
 }
@@ -35,11 +34,11 @@ nav#menu li a{
     text-decoration: none;
     left: 0px;
     float: right;
-    padding: 1px;
+    padding: 2px;
     position: relative;
     color: black;
     margin: 20px;
-    margin-top: 0px;
+    top: -220px;
     transition: .7s;
 }
 
