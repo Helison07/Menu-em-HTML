@@ -45,3 +45,10 @@ nav#menu li a{
 nav#menu a:hover {
     background-color: aliceblue;
 }
+
+footer#rodape {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgb(0, 204, 255);
+    padding: 15px;
+   
+}
