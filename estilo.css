@@ -7,6 +7,7 @@ body {
     margin-top: -15px;
     background-color: rgb(0, 204, 255);
     padding: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .cabecalho h1 {
